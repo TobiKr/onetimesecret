@@ -121,6 +121,9 @@ module Onetime
         raise_form_error "Unknown plan type" unless OT::Plan.plan?(planid)
       end
       def process
+        # disable Signup
+        raise_form_error "Signup disabled!"
+
         @plan = OT::Plan.plan(planid)
         @cust = OT::Customer.create custid
         cust.update_passphrase password

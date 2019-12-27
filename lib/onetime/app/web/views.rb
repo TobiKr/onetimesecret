@@ -201,10 +201,10 @@ module Onetime
               { :value => 3.days, :name => "3 days"},
               { :value => 1.day, :name => "1 day"},
               { :value => 12.hours, :name => "12 hours"},
-              { :value => 4.hours, :name => "4 hours"},
-              { :value => 1.hour, :name => "1 hour"},
-              { :value => 30.minutes, :name => "30 minutes"},
-              { :value => 5.minutes, :name => "5 minutes"}
+              { :value => 4.hours, :name => "4 hours"}
+              # { :value => 1.hour, :name => "1 hour"},
+              # { :value => 30.minutes, :name => "30 minutes"},
+              # { :value => 5.minutes, :name => "5 minutes"}
             ]
           end
           @expiration_options
